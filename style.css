@@ -1,0 +1,86 @@
+ul{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.inp{
+    margin-top: 95px;
+}
+li{
+    background-color: cyan;
+    padding: 10px;
+    margin: 10px;
+    word-spacing: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    height: 50px;
+    width: 980px;
+    margin-left: 30px;
+    border-radius: none;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 5px 5px 5px cyan;
+}
+
+button{
+    box-shadow: 0px 4px 0px 3px cyan;
+    width: 195px;
+    background-color: rgb(247, 240, 226);
+    margin: 15px;
+    height: 61px;
+    border-radius: none;
+    border: none;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pera{
+    background-color: cyan;
+    width: 1190px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(252, 242, 223);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 25px;
+}
+
+body{
+    background-color: black;
+}
+
+.error{
+    background-color: red;
+    width: 1190px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(252, 242, 223);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 25px;
+}
+
+
+@media screen and (max-width: 700px) {
+     li{word-spacing: 40px;}
+    .pera{
+        width: 313px;
+        font-size: 34px;
+    }
+    .error{
+        width: 313px;
+    }
+    input{
+        width: 200px;
+    }
+    button{
+        width: 100px;
+        height: 54px;
+    }
+}
